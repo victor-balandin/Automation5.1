@@ -1,3 +1,4 @@
+package ru.netology;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
@@ -12,14 +13,11 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class CardDeliveryTests {
 
-
-    private static Faker faker;
-
     RegistrationInfo info = DataGenerator.Registration.generateInfo("ru");
 
 
     @Test
-    void shouldCardFormTest() {
+    void shouldCardFormTestAndReplanMeeting() {
         open("http://localhost:9999");
         Configuration.holdBrowserOpen = true;
 
