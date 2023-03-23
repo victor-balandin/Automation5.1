@@ -19,7 +19,7 @@ public class CardDeliveryTests {
 
 
     @Test
-    void shouldFirstCardFormTest() {
+    void shouldCardFormTest() {
         open("http://localhost:9999");
         Configuration.holdBrowserOpen = true;
 
