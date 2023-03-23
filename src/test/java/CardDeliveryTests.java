@@ -12,6 +12,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class CardDeliveryTests {
 
+
     private static Faker faker;
 
     RegistrationInfo info = DataGenerator.Registration.generateInfo("ru");
